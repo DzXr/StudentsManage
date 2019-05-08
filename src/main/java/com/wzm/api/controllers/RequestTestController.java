@@ -15,6 +15,6 @@ public class RequestTestController {
 
     @GetMapping()
     public String TestString(){
-        return "this is a test string. Time:2019-05-05 16:58:00";
+        return "this is a test string. Time:2019-05-08 16:58:00";
     }
 }
