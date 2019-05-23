@@ -1,0 +1,157 @@
+@charset "utf-8";
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+div{
+	display: block;
+}
+
+body{
+	height: 450px;
+}
+
+body a{
+	outline: 0;
+}
+
+a{
+	text-decoration: none;
+	color: #666;
+   cursor: pointer;
+}
+
+.header .header-title{
+	width: 100%;
+	background-repeat: no-repeat;
+}
+
+.tips-security{
+	width: 100%;
+	padding: 7px 0;
+	margin-top: -10px;
+	line-height: 16px;
+	background: #fffcd8;
+	font-family: 'Microsoft yahei';
+	font-size:12px;
+	color: #666;
+	text-align: center;
+	vertical-align: middle;
+}
+.nav{
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(img/背景图片1.jpg);
+    height: 475px;
+	width: 100%;
+	/* border: 1px solid red; */
+}
+
+.target{
+	width: 30%;;
+	height: 65%;;
+/*	border: 1px solid black;*/
+/*	margin-left: 450px;*/
+   margin-top: 5px;
+padding-top: 10px;
+	margin: 0 auto;
+}
+
+.target .target-1{
+	
+	text-align: center;
+}
+.target-1 .bj{
+	font-size: 19px;
+	color: black;
+	background-color: green;
+}
+
+.target-1 form{
+	margin-top: -30px;
+	/* background-color:#BBD1B0; */
+	opacity: 0.8;
+	border: 1px solid black;
+}
+
+
+
+.target-1 p{
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 6px;
+	color:green;
+}
+
+.target-1 i{
+	font-style: normal;
+	font-size: 16px;
+	letter-spacing: 3px;
+	font-weight: 300px;
+}
+
+
+.target-1 .target-2{
+	outline: none;
+	width: 180px;
+	height: 30px;
+	border: 1px solid black;
+	margin-bottom: 8px;
+	border-radius: 10px;
+}
+
+.target-3{
+	margin-left: 30px;
+	width: 120px;
+	height: 40px;
+	border-radius: 15px;
+	font-size: 14px;
+	font-weight: bolder;
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+
+.target-3:hover{
+	background-color: #ff6700;
+	color: #fff;
+}
+
+
+.D{
+	width: 100%;
+	height: 60px;
+	/* border: 1px solid black; */
+	margin-top: 140px;
+}
+
+.D ul{
+	margin-left: 190px;
+/*	text-align: center;*/
+}
+
+.D ul li{
+	float: left;
+	list-style-type: none;
+	margin-left: 5%;
+	text-align: center;
+/*	vertical-align: middle;*/
+	height: 60px;
+	line-height: 60px;
+}
+.D ul li a{
+	font-size: 18px;
+	color: black;
+
+}
+.D a:hover{
+	color: #FF6700;
+}
+
+
+.target-1 .nac{
+    display: inline-block;
+    margin-left: 10px;
+}

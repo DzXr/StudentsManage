@@ -15,7 +15,7 @@
 <body>
 <h1>学生信息管理系统</h1>
 <div style='align:center;background-color:#eeeeee'>
-    <sup>·+·+</sup><a href='main.html'>首页</a><sup>·+·+</sup><a href='clamanage.do'>班级管理</a><sup>·+·+</sup><a href='login.jsp'>退出登录</a><sup>·+·+</sup><br>
+    <sup>·+·+</sup><a href='main.html'>首页</a><sup>·+·+</sup><a href='clamanage.do'>班级管理</a><sup>·+·+</sup><a href='login.html'>退出登录</a><sup>·+·+</sup><br>
     <table border=1>
         <th width=10%>课程号</th><th width=10%>课程名</th><th width=10%>学分</th><th width=5%>操作</th>
         <sup>·+·+</sup><a href='addCourse.html'>开设课程</a><sup>·+·+</sup><a href='searchCourse.html'>查询课程</a><br>

@@ -21,23 +21,23 @@
 	
 	<div class="nav">
 	<div class="target">
-		<div class="target-1">
-			<a href="http://www.ahstu.edu.cn/" style="color: black">学生信息管理系统</a>
-			<br><br>
-			   <form action="/addcla.do" method="post">
-				   <p class="bj">添加班级</p><br>
-				<i>班级号:</i>&nbsp;<input type="text" name="claid" class="target-2" placeholder="请输入班级" onblur="checkNumber(this.value)" /><br>
-				   
-				<i>院系</i>:&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="ins" class="target-2" placeholder="请输入院系" onblur="isChinese(this.value)"/><br>
-				   
-				<i>专业</i>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="major" class="target-2" placeholder="请输入专业" onblur="isChinese(this.value)"/><br>
-				   
-				<i>班级简介</i>:<input type="text" name="syn" class="target-2" placeholder="请输入班级简介" onblur="isChinese(this.value)"/>
-				   <br/><br>
-				<input type="submit" value="添加" class="target-3" style="outline: none;"/>
-			</form>
-		
-			</div>
+<div class="target-1">
+	<p>学生信息管理系统</p>
+	<br><br>
+       <form action="/addCourse.do" method="post">
+		   <p class="tk">添加课程</p>
+        <i>课程号:</i>&nbsp;&nbsp;&nbsp;<input type="text" name="couid" class="target-2" placeholder="请输入课程号" onblur="checkNumber(this.value)"/><br>
+		   
+        <i>课程名：</i><input type="text" name="couname" class="target-2" placeholder="请输入课程名" onblur="isChinese(this.value)"/><br>
+		   
+        <i>学分</i>：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="credit" class="target-2" placeholder="请输入学分" onblur="checkNumber(this.value)"/><br>
+		   
+        <i>备注</i>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="remark" class="target-2" placeholder="请输入备注" onblur="isChinese(this.value)"/>
+		   <br/><br>
+        <input type="submit" value="添加" class="target-3" style="outline: none;"/>
+    </form>
+
+	</div>
 		</div>
 	
 <!--	底部-->
@@ -71,7 +71,6 @@
 	return false; 
 	} 
 	}
-	
 	</script>
 </body>
 </html>
