@@ -12,29 +12,17 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>classInformaticaManage</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="searchCla.css">
+    <title>Title</title>
 </head>
 <body>
-        <div class="target">
-                <div class="target-1">     
-                        <select name="" id="select-nav" onchange="window.location=this.value;">
-                            <option value="main.html">首页</option>
-                            <option value="main.html">首页</option>
-                            <option value="clamanage.do">班级管理</option>
-                            <option value="searchStu.html">查找学生</option>
-                            <option value="addStu.html">增加学生</option>
-                            <option value="courseManage.do">课程管理</option>
-                            <option value="gradeManage.do">成绩管理</option>
-                            <option value="login.html">退出登录</option>
-                        </select>
-                            </div>
-          <div class="target-2">学生信息管理系统</div>
-         
-        <div class="target-3">
-            <table border=1>
-                    <th width=8%>学号</th><th width=5%>姓名</th><th width=5%>性别</th><th width=15%>出生日期</th><th width=15%>家庭住址</th><th width=8%>政治面貌</th><th width=8%>操作</th>
+
+<h2>班级管理</h2>
+<div style='aligin:center;background-color:#eeeeee'>
+  <sup>·+·+</sup><a href='main.html'>首页</a><sup>·+·+</sup><a href='clamanage.do'>班级管理</a><sup>·+·+</sup><a href='login.html'>退出登录</a><sup>·+·+</sup><br>
+    <sup>.+.+.+.+.+</sup><a href='searchStu.html'>查找学生</a><sup>.+.+.+.+.+</sup><a href='addStu.html '>增加学生</a><sup>.+.+.+.+.+</sup><a href='courseManage.do'>课程管理</a><sup>.+.+.+.+.+</sup><a href='gradeManage.do'>成绩管理</a><br>
+
+    <table border=1>
+        <th width=8%>学号</th><th width=5%>姓名</th><th width=5%>性别</th><th width=15%>出生日期</th><th width=15%>家庭住址</th><th width=8%>政治面貌</th><th width=8%>操作</th>
         <%
             Page page1 = (Page)request.getAttribute("page");
             List<Student> list = (List)request.getAttribute("list");
@@ -110,12 +98,7 @@
     <%
             }
     %>
-</div>
-        <div>
-                <marquee behavior="alternate">
-                    <span style="color:red; font-size:18px;font-weight:bold;">欢迎来到学生信息管理系统</span>
-                    </marquee></div>
     </div>
+
 </body>
 </html>
-

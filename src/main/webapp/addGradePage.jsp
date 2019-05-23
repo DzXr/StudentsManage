@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿<%@ page import="com.wzm.api.entity.ClassCourse" %>
+=======
+<%@ page import="com.wzm.api.entity.ClassCourse" %>
+>>>>>>> origin/master
 <%@ page import="java.util.List" %>
 <%@ page import="com.wzm.api.entity.Course" %><%--
   Created by IntelliJ IDEA.
@@ -9,6 +13,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
+<<<<<<< HEAD
  <head>
     <title>addGradePage</title>
     <meta charset="utf-8">
@@ -29,6 +34,18 @@
                 <div class="target-3">
                         <table border=1>
                                 <form action="addGrade.do" method="post">
+=======
+<head>
+    <title>addGradePage</title>
+</head>
+<body>
+<h1>学生信息管理系统</h1>
+<div style='align:center;background-color:#eeeeee'>
+    <sup>·+·+</sup><a href='main.html'>首页</a><sup>·+·+</sup><a href='clamanage.do'>班级管理</a><sup>·+·+</sup><a href='login.html'>退出登录</a><sup>·+·+</sup><br>
+    <table border=1>
+        <div align ="center" style="text-align:center;background-color:#eeeeee">
+            <form action="addGrade.do" method="post">
+>>>>>>> origin/master
                 <%
                     List<ClassCourse> classCoursesList = (List)request.getAttribute("classCoursesList");
                     List<Course> courseList = (List)request.getAttribute("courseList");
@@ -44,6 +61,7 @@
                         index++;
                     }
                     %>
+<<<<<<< HEAD
                 <input type="submit" value="提交" style="width: 80px;height: 30px;border-radius: 8px;opacity: 0.8;font-size:19px; cursor: pointer; outline:none;"/>
                                     </form>
                         </table>               
@@ -55,3 +73,13 @@
                             </div>
         </body>
         </html>
+=======
+                <input type="submit" value="提交"/>
+            </form>
+        </div>
+    </table>
+</div>
+
+</body>
+</html>
+>>>>>>> origin/master
